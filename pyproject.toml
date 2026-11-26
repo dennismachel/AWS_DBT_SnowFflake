@@ -1,0 +1,20 @@
+[project]
+name = "aws-dbt-snowflake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dennis Humes", email = "dennis.machel@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "dbt-core>=1.12.7",
+    "dbt-snowflake>=1.12.5",
+]
+
+[project.scripts]
+aws-dbt-snowflake = "dbt_snowflake:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
