@@ -1,0 +1,16 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local editor settings
+.vscode/
+
+# Local dbt profile and user-specific configuration
+**/profiles.yml
+**/.user.yml
+
+# Generated dbt artifacts and logs
+**/target/
+**/dbt_packages/
+**/logs/

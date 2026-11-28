@@ -1,0 +1,10 @@
+models:
+  - name: bronze_listings
+    config:
+      materialized: table
+  - name: bronze_hosts
+    config:
+      materialized: incremental
+  - name: bronze_bookings
+    config:
+      materialized: incremental
